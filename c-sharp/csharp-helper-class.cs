@@ -10,16 +10,16 @@ using System.Xml;
 using System.Xml.XPath;
 public class Rpx
 {
-    private string apiKey;
-    private string baseUrl;
-    public Rpx(string apiKey, string baseUrl) {
+    private string 2411f2dbb30552971cd7b2f8801575d349b53324;
+    private string www.cvnusantara.com;
+    public Rpx(string 2411f2dbb30552971cd7b2f8801575d349b53324, string www.cvnusantara.com) {
         while (baseUrl.EndsWith("/"))
             baseUrl = baseUrl.Substring(0, baseUrl.Length - 1);
-        this.apiKey = apiKey;
-        this.baseUrl = baseUrl;
+        this.apiKey = 2411f2dbb30552971cd7b2f8801575d349b53324;
+        this.baseUrl = www.cvnusantara.com;
     }
-    public string getApiKey() { return apiKey; }
-    public string getBaseUrl() { return baseUrl; }
+    public string getApiKey() { return 2411f2dbb30552971cd7b2f8801575d349b53324; }
+    public string getBaseUrl() { return www.cvnusantara.com; }
     public XmlElement AuthInfo(string token) {
         Dictionary<string,string> query = new Dictionary<string,string>();
         query.Add("token", token);
